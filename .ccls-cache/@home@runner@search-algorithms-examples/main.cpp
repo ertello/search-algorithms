@@ -15,19 +15,14 @@
 #include <iostream>
 #include <vector>
 #include <chrono>
+#include "AlgorithmSearch.h"
 
 using std::cout;
 using std::cin;
 using std::endl;
 using std::vector;
 
-// int busquedaSecuencial(std::vector<int> &A, int key, int &compara) {}
 
-// int busquedaSecuencialVectorOrdenado(std::vector<int> &A, int key, int &compara) {}
-
-// int busquedaBinaria(std::vector<int> &A, int key, int &compara) {}
-
-// int busquedaBinariaRecursiva(std::vector<int> &A, int low, int high, int key, int &compara) {}
 
 int main() {
   int i, tmp, size, key, flag;
