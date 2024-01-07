@@ -22,12 +22,8 @@ using std::cin;
 using std::endl;
 using std::vector;
 
-
-
 int main() {
   int i, tmp, size, key, flag;
-  // Inicio conteo de tiempo de ejecución  
-  auto startTime = std::chrono::high_resolution_clock::now();
   cin >> size; 
   cout << "Size: " << size << endl;
   cin >> key;
@@ -48,7 +44,11 @@ int main() {
     }
     cout << endl;
   }
+  // Instancia un objeto de la clase AlgoritmoSort
+  AlgorithmSearch<int> searchObj;
   int comparaciones = 0;
+  // Inicio conteo de tiempo de ejecución  
+  auto startTime = std::chrono::high_resolution_clock::now();
   //cout << "Key buscado esta en indice: " <<    busquedaSecuencial(myVector, key, comparaciones) << endl;
   //cout << "Key buscado esta en indice: " <<    busquedaSecuencialVectorOrdenado(myVector, key, comparaciones) << endl;
   //cout << "Key buscado esta en indice: " <<    busquedaBinaria(myVector, key, comparaciones) << endl;
