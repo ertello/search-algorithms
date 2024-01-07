@@ -44,7 +44,7 @@ int main() {
     }
     cout << endl;
   }
-  // Instancia un objeto de la clase AlgoritmoSort
+  // Instancia un objeto de la clase AlgorithmSearch
   AlgorithmSearch<int> searchObj;
   int comparaciones = 0;
   // Inicio conteo de tiempo de ejecución  
