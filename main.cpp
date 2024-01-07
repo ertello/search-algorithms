@@ -20,7 +20,7 @@ using std::cout;
 using std::cin;
 using std::endl;
 using std::vector;
-// hola
+
 // int busquedaSecuencial(std::vector<int> &A, int key, int &compara) {}
 
 // int busquedaSecuencialVectorOrdenado(std::vector<int> &A, int key, int &compara) {}
