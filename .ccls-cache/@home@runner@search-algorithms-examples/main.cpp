@@ -45,11 +45,11 @@ int main() {
     cout << endl;
   }
   // Instancia un objeto de la clase AlgorithmSearch
-  AlgorithmSearch<int> searchObj;
+  SearchAlgorithm<int> searchObj;
   int comparaciones = 0;
   // Inicio conteo de tiempo de ejecución  
   auto startTime = std::chrono::high_resolution_clock::now();
-  //cout << "Key buscado esta en indice: " <<    busquedaSecuencial(myVector, key, comparaciones) << endl;
+  //cout << "Key buscado esta en indice: " <<  searchObj.busquedaSecuencial(myVector, key, comparaciones) << endl;
   //cout << "Key buscado esta en indice: " <<    busquedaSecuencialVectorOrdenado(myVector, key, comparaciones) << endl;
   //cout << "Key buscado esta en indice: " <<    busquedaBinaria(myVector, key, comparaciones) << endl;
   //cout << "Key buscado esta en indice: " <<    busquedaBinariaRecursiva(myVector, 0, (int)myVector.size()-1, key, comparaciones) << endl;
