@@ -79,7 +79,7 @@ int main() {
   // Lectura de los elementos del arreglo
   for(i = 0; i < size; i++) {
      cin >> tmp;
-     myVector.push_back(tmp*0.15);
+     myVector.push_back(tmp);
   }
   if (flag) {
     cout << "Los elementos del arreglo son: " << endl;
